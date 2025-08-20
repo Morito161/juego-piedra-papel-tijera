@@ -1,3 +1,51 @@
 body{
-    background-color: rgb(43, 177, 226);
+    background-color: #f5f5f5;
+    font-family: ;Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    min-height: 100vh;
+}
+h1{
+    font-size: 24px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+.opciones-jugador{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 40px;
+}
+.opcion{
+    width: 120px;
+    height: 120px;
+    background-color: aquamarine;
+    font-size: 20px;
+    border: none;
+    cursor:  pointer;
+    margin: 10px;
+    border-radius: 10px;
+    transition: background-color 0.4s ease ease-in-out;
+}
+.opcion:hover{
+    background-color: lightcoral;
+}
+.opcion:active{
+    background-color: rgb(158, 250, 108);
+}
+.resultado{
+    background-color: #f0b44b;
+    border: 2px solid #ccc;
+    height: 70px;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+}
+.mensaje{
+    font-size: 18px;
+    margin: 0;
+    text-align: center;
 }
